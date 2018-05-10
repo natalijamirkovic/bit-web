@@ -1,0 +1,21 @@
+.nav-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  color: white;
+  background: #2c3e50; }
+
+header {
+  margin-top: 56px;
+  color: white;
+  background: #18bc9c; }
+
+.entry {
+  background: #18bc9c; }
+
+.entry-img {
+  display: block;
+  margin: 0 auto; }
+
+/*# sourceMappingURL=main.css.map */
