@@ -19,3 +19,26 @@ header {
   margin: 0 auto; }
 
 /*# sourceMappingURL=main.css.map */
+
+.simbol {
+  width: 100%;
+  text-align: center; }
+
+.linija {
+  display: inline-block;
+  border-top: 4px solid white; 
+  width: 60px;
+  height: 20px;
+ }
+
+.zvjezdica {
+  display: inline-block;
+  position: relative;
+  margin: 0px 12px;
+  font-size: 24px;
+  top:-8px;
+ }
+
+.crna-linija {
+  border-top: 4px solid black;
+}
