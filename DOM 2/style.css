@@ -1,0 +1,18 @@
+.bg-color {
+    background-color: rebeccapurple;
+}
+
+
+.nice {
+    background-color: darkolivegreen;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.active {
+    background-color: deepskyblue;
+}
+
+.required {
+    border: 1px solid tomato;
+}
