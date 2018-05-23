@@ -1,0 +1,18 @@
+body {
+    position: relative;
+}
+
+
+.move {
+    height: 300px;
+    width: 300px;
+    position: absolute;
+
+}
+
+.div {
+    height: 400px;
+    width:  500px;
+    background: red;
+    border: 2px solid green;
+}

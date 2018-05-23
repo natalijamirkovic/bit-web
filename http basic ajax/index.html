@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="owlcarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="owlcarousel/assets/owl.theme.default.min.css">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="owl-carousel">
+        <div>
+            <img src="http://images4.fanpop.com/image/photos/23400000/Ice-Cream-delicious-recipes-23430474-300-350.jpg" alt="slika 1"> </div>
+        <div>
+            <img src="http://longjourney.in/meghalaya/images/balpakram2.jpg" alt="slonko"> </div>
+        <div>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjqOGEdMSfGUyUNNJ7k0-S0-wiI97VlrcvZtsKQvWCGGRY0wrWSw" alt="dog"> </div>
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <script src="owlcarousel/owl.carousel.min.js"></script>
+    <script src="animate.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(".owl-carousel").owlCarousel({
+                items: 1,
+                loops: true,
+                autoplay: true,
+                autoplayTimeout: 2000
+            });
+        });
+    </script>
+</body>
+
+</html>
